@@ -1,6 +1,2 @@
 # Interview-Repo-DSA
-prep start : 24.7.2020. \n 
-Just a Simple REPO for my interview prep.
-Feel free to browse through
-
-Mail me at sabrish2701@gmail.com if you don't understand the solutions
+Just starting my prep for a few upcoming interviews from today (24.7.2020). Feel free to browse through. Will be updating Repo everyday...solving atleast 4 to 5 problems a day. If you have anny doubts..don't hesitate ...just mail me at sabrish2701@gmail.com. CYA
