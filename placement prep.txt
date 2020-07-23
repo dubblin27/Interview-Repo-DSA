@@ -1,0 +1,172 @@
+MUST DO:
+--------
+Easy : https://leetcode.com/list/xix1yu51/ 
+Medium : https://leetcode.com/list/xixy4dq7/
+
+What are the important topics I should study ?
+--------------------------------------------
+
+Big O Notation:
+    Theory
+    Practice problems from Cracking the Coding Interview
+
+Stack DS
+Queue DS 
+
+Arrays and Maths:
+    Practice a lot of Questions on Arrays and Maths. Some important topics are mentioned below.
+    Circular Arrays - Typical ways to solve on Leetocode
+    Boyer Moore Voting Algorithm Leetcode
+    Two Sum Problem - Leetcode
+    Three Sum Problem - Leetcode
+    Four Sum Problem - Leetcode
+    Buy and Stock problem - Leetcode
+    Buy and Stock problem II - Leetcode
+    Buy and Stock problem III - Leetcode
+    Buy and Stock problem IV - Leetcode
+    Buy and Stock With Cooldown - Leetcode
+    Questions relating to Palindromes.
+    Longest Palindromic Subsequence
+    Finding square root of a number in logn time - Leetcode
+    Subarray and Subsequence problems.
+	
+	Link : https://www.geeksforgeeks.org/array-data-structure/
+	a. Array rotation - 20 problems
+	b. Array rearrangement - 20 problems
+	c. Order statistics - 20 problems
+	d. Range queries - 20 problems
+	e. Searching and sorting - 20 problems
+	f. Optimization problems - 20 problems
+	g. Matrix - 20 problems
+	h. Misc - 10 problems
+
+Binary Search:
+    Binary Search from Topcoder(MUST)
+	
+	Link : https://www.geeksforgeeks.org/binary-tree-data-structure/
+	a. Introduction - min 20 problems
+	b. Traversals - min 20 problems
+	c. Construction & conversion - min 20 problems
+	d. Checking & printing - min 20 problems
+	e. Summation - min 20 problems
+	f. Longest common Ancestor - min 10 problems
+
+Binary Search Tree:
+	
+	Link : https://www.geeksforgeeks.org/binary-search-tree-data-structure/
+	a. Construction and Conversion
+	b. Checking the largest and smallest element
+	c. Red Black Tree and threaded binary tree
+
+Bitwise manipulation:
+    A summary: how to use bit manipulation to solve problems easily and efficiently - LeetCode Discuss
+    Good website to visualize bitwise operations
+    https://www.geeksforgeeks.org/bits-manipulation-important-tactics/
+
+Trees:
+    Pre-order(BOTH recursive and iterative)
+    Post-order(BOTH recursive and iterative
+    In-order(BOTH recursive and iterative
+    N-ary Tree Pre-order Traversal
+    N-ary Tree Pre-order Traversal
+    N-ary Tree Level Order Traversal
+    Maximum Depth of N-ary Tree
+    Serialization and deserialization of trees - Leetcode
+    Binary Search Tree
+    Lowest Common Ancestor - Leetcode
+    Morris In-order traversal by Tushar Roy (Video)
+    Threaded Binary Tree
+
+Recursion and Backtracking:
+    Recursion and Backtracking Tutorial
+    Blog by csgator(BEST)
+    Interview Bit Theory
+    Turnpike problem
+    Word break Problem Leetcode
+    Word break Problem 2 Leetcode
+    Letter combinations of a phone-number Leetcode
+
+Graphs:
+    Representing graphs
+	Minimum Spanning Tree
+	Graph cycle detection
+    DFS, BFS Explanation by csgator(BEST)
+    Topological Sorting
+    Prims and Kruskal
+    Dijikstra
+    Dijkstra on sparse graphs - Competitive Programming Algorithms
+    Number of Islands
+    Friend Circles
+    Decode String
+	shortest path
+
+Sorting : 
+	a. Bubble sort
+	b. Selection sort
+	c. Insertion sort
+	d. Quick sort
+	e. Heap sort
+	f. Merge sort
+	g. Counting sort
+	h. Radix sort	
+	
+Geometry:
+    Geometric Algorithms - GeeksforGeeks
+
+Hashing:
+    map vs unordered_map in C++ - GeeksforGeeks
+    Design HashMap
+    Design Hashset
+    Sliding Window algorithm template to solve all the Leetcode substring search problem. - LeetCode Discuss (This is important !)
+    String Hashing
+
+Linked List:
+    Insertion
+    Deletion of Node
+    Reverse Linked List (iterative and recursive)
+    Circular Linked List
+    Doubly Linked List
+    Floyd's Cycle Detection Algorithm
+    Linked List Cycle - Leetcode
+    LRU Cache - C++ Implementation - Bhrigu Srivastava
+    Copy list with random-pointer (BEAUTIFUL QUESTION!)
+
+Dynamic Programming:
+
+	Link : https://www.youtube.com/watch?v=8LusJS5-AGo&list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr	
+    TopCoder Article (VERY IMPORTANT!!! MUST)
+    Top 20 DP questions(Geeks for geeks) Important!
+    Tushar Roy DP playlist
+    Do Questions from Interview Bit (Good List) :P
+    Top 50 DP questions
+    Difference between DP and Divide and Conquer
+
+Disjoint Set Union:
+    DSU CP-Algorithm
+
+Sorting:
+    Be clear with the basic algorithm and time complexity of all sorting algorithms.
+    Additionally read up count sort, bucket sort and radix sort.
+
+Greedy:
+    Basics of Greedy
+
+
+Linked list (single, circular, double) :
+	Normal implementation (Least asked)
+	Reversal 
+	swap nodes
+	hare and tortoise
+	cloning 2 or more linked lists
+	
+other important :
+	topological sort
+	connected components in a graph 
+	graph problem archives in Geeks/LeetCode
+	Rotton oranges problem 
+	Disjoint set / Union-Find 
+	Minimum spanning tree
+	
+
+	
+	
