@@ -16,3 +16,16 @@
 # Constraints:
 #     s consists only of printable ASCII characters.
 
+#main code
+def checkpalindrome(s) :
+    return s == s[::-1]
+inp = input()
+without_extras = list([val for val in inp if val.isalnum()])
+final_string = "".join(without_extras)
+string = final_string.lower()
+print(string)
+print(checkpalindrome(string))
+
+
+
+    
