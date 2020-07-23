@@ -26,6 +26,14 @@ string = final_string.lower()
 print(string)
 print(checkpalindrome(string))
 
+# Leetcode soln :
+class Solution:
+    def isPalindrome(self, s: str) -> bool:
+        without_extras = list([val for val in s if val.isalnum()])
+        final_string = "".join(without_extras)
+        string = final_string.lower()
+        return string == string[::-1]
+
 
 
     
