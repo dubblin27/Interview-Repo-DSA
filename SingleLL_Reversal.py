@@ -19,19 +19,35 @@ Output: NULL
 #         self.next = next
 class Solution:
     def reverseList(self, head: ListNode) -> ListNode:
-        # prev, current = None, head 
-        # while current != None :
-            
-        #     current.next = prev 
-        #     prev = current
-        #     current = next 
-        #     next = current.next 
-        # head = prev  
-        # return head
+        previous = None 
+        currentnode = head 
+        # 1-2-3-None 
+        # currnode = 1 
+        while currentnode != None :
+            next = currentnode.next 
+            #next = 2
+            currentnode.next = previous
+            #1->None
+            previous = currentnode
+            #prev = 1
+            currentnode = next
+            #currnode = 2
 
-        currnode =  head 
-        prev = None 
-        while currnode is not None:
-            currnode.next = prev 
-            prev = currnode
-            
+            # next = 3
+            # 2->1->None 
+            # prev = 2
+            # currentnode = 3
+
+            # next = None
+            # 3->2->1->None 
+            # prev = 3
+            # currentnode = None 
+
+            # break 
+        head = previous
+        return head
+
+
+
+
+        
