@@ -13,36 +13,7 @@
 # ]
 # Output: 1->1->2->3->4->4->5->6
 
-
-
-
-
-
-# Definition for singly-linked list.
-# class ListNode:
-#     def __init__(self, val=0, next=None):
-#         self.val = val
-#         self.next = next
-# class node:
-#     def __init__(self,data):
-#         self.data = data
-#         self.next = None 
-        
-# class LL:
-#     def __init__(self):
-#         self.head = None
-#     def append_to_list(self,data):
-        
-#         newnode = node(data)
-#         print(newnode.data)
-#         if self.head == None:
-#             self.head = newnode
-#         # print(self.head.data)
-#         # # print(newnode.data)
-#         lastnode = self.head
-#         while lastnode.next:
-#             lastnode = lastnode.next
-#         lastnode.next = newnode
+#SOLN : 
 class LL:
     def __init__(self):
         self.head = None 
@@ -79,6 +50,35 @@ class Solution:
         # a.append(arr[0])
         # a.append(arr[1])
         return a.print()
+
+# --------------------------------------
+
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+# class node:
+#     def __init__(self,data):
+#         self.data = data
+#         self.next = None 
+        
+# class LL:
+#     def __init__(self):
+#         self.head = None
+#     def append_to_list(self,data):
+        
+#         newnode = node(data)
+#         print(newnode.data)
+#         if self.head == None:
+#             self.head = newnode
+#         # print(self.head.data)
+#         # # print(newnode.data)
+#         lastnode = self.head
+#         while lastnode.next:
+#             lastnode = lastnode.next
+#         lastnode.next = newnode
+
         
         
         
