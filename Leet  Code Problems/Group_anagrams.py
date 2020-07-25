@@ -27,61 +27,26 @@
 #         arrx.append(items[0])
 #     return arrx
 
-def sortedd(arr1) :
-    arr_x = []
-    for i in range(0,len(arr1)) :
-        arr_x.append([''.join(sorted(arr1[i][0])), i])
-    return arr_x
+def groupana(arr):
+    result = []
+    mymap = {}
+    count = 0 
+    for idx, word in enumerate(arr):
+        # print(idx,word)
+        key = sorted(word)
+        key = ''.join(key)
 
-def main_append(ori,sor) :
-    for i in range(len(sor)):
-        # if sor[i][0] not in  :
-        if sor[i][0] not in found    
-        
+        if key in mymap:
+            (result[mymap[key]]).append(word)
+            (result[mymap[key]]).sort()
+            print(result[mymap[key]])
+        else :
+            anagram = [word]
+            result.insert(idx,anagram)
+            mymap[key] = count;
+            count +=1 
+    result.sort(key = len)
+    return result
+arr = ["eat","tea","tan","ate","nat","bat"] 
 
-
-
-
-
-
-
-
-arr = ["eat", "tea", "tan", "ate", "nat", "bat"] 
-arr1 = []
-for i in range(0,len(arr)):
-    z = []
-    z.append(arr[i])
-    z.append(i)
-    arr1.append(z)
-arr3 = arr1 
-# print(arr1)
-arr2 = sortedd(arr1)
-print(arr1)
-print(arr2)
-# print(arr1)
-main_append(arr1,arr2)
-
-
-
-
-# def sortedd(arr):
-#     main_dict = {}
-#     for i in range(0,len(arr)):
-#         # print(arr[i])
-#         print(main_dict)
-#         arr[i] = ''.join(sorted(arr[i]))  
-#         print(arr[i])
-#         main_dict[arr[i]] = i
-#     print(main_dict)
-
-# arr = ["eat", "tea", "tan", "ate", "nat", "bat"] 
-# dict = {}
-# for i in range(0,len(arr)):
-#     dict.__setitem__(arr[i],i)
-# print(dict)
-
-# main_arr = sortedd(arr)
-# print(main_arr)
-# # main arr = []
-
-# # for items in arr :
+print(groupana(arr))
