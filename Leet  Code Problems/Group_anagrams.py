@@ -50,3 +50,43 @@ def groupana(arr):
 arr = ["eat","tea","tan","ate","nat","bat"] 
 
 print(groupana(arr))
+
+
+# -----------------------
+
+# Leet soln 1 :
+
+class Solution:
+    def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
+        result = []
+        myMap = {}
+        count = 0
+        for idx, word in enumerate(strs):
+            key = sorted(word)
+            key = ''.join(key)
+            if key in myMap:
+                (result[myMap[key]]).append(word)
+                result[myMap[key]].sort()
+                
+            else:
+                anagram = [word]
+                result.insert(idx, anagram)
+                myMap[key] = count;
+                count += 1
+                
+        result.sort(key=len)
+        return result
+
+# Leet soln 2 :
+from functools import reduce
+class Solution:
+    def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
+        def f(acc, s):
+            key = ''.join(sorted(s))
+            if key in acc:
+                acc[key] += [s]
+            else:
+                acc[key] = [s]
+            return acc
+
+        return reduce(f, strs, {}).values()
