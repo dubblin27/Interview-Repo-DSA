@@ -1,23 +1,18 @@
-def groupana(arr):
-    result = []
-    mymap = {}
-    count = 0 
-    for idx, word in enumerate(arr):
-        # print(idx,word)
-        key = sorted(word)
-        key = ''.join(key)
+def make_dict(strs):
+    dict = {}
+    x = []
+    for i in range(len(strs)):
+        x.append(''.join(sorted(strs[i])))
+    for i in range(len(strs)):
+        dict.setdefault(x[i], []).append(strs[i])
+    main_strs = []
+    for i in dict.values():
+        main_strs.append(i)
+    main_strs.sort(key=len)
+    return main_strs
 
-        if key in mymap:
-            (result[mymap[key]]).append(word)
-            (result[mymap[key]]).sort()
-            print(result[mymap[key]])
-        else :
-            anagram = [word]
-            result.insert(idx,anagram)
-            mymap[key] = count;
-            count +=1 
-    result.sort(key = len)
-    return result
-arr = ["eat","tea","tan","ate","nat","bat"] 
 
-print(groupana(arr))
+        
+strs = ["eat","tea","tan","ate","nat","bat"] 
+
+print(make_dict(strs))
