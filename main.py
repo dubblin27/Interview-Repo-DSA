@@ -1,18 +1,15 @@
-def make_dict(strs):
-    dict = {}
-    x = []
-    for i in range(len(strs)):
-        x.append(''.join(sorted(strs[i])))
-    for i in range(len(strs)):
-        dict.setdefault(x[i], []).append(strs[i])
-    main_strs = []
-    for i in dict.values():
-        main_strs.append(i)
-    main_strs.sort(key=len)
-    return main_strs
-
-
-        
-strs = ["eat","tea","tan","ate","nat","bat"] 
-
-print(make_dict(strs))
+lst =  "a, a, a, a, b,b,b,c, c" 
+# lst = [lst] 
+# for i in lst :
+#     if i!= " " :
+#         i.replace(i," ")
+#     if i != "a-zA-Z"  :
+#         i.replace(i," ")
+# print(lst)
+words = lst.split()
+counts = {}
+for word in words:
+    if word not in counts:
+        counts[word] = 0
+    counts[word] += 1
+print(counts)
