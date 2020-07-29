@@ -54,4 +54,3 @@ for i in dict.values() :
     if i >= a :
         a = i 
 # print(list(dict.keys()))[list(dict.values()).index(a)]
-print(list(dict.keys())[list(dict.values()).index(a)]) 
