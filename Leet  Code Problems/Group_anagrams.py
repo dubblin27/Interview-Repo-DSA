@@ -90,3 +90,18 @@ class Solution:
             return acc
 
         return reduce(f, strs, {}).values()
+
+#leetcode soln 33:
+class Solution:
+    def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
+        dict = {}
+        x = []
+        for i in range(len(strs)):
+            x.append(''.join(sorted(strs[i])))
+        for i in range(len(strs)):
+            dict.setdefault(x[i], []).append(strs[i])
+        main_strs = []
+        for i in dict.values():
+            main_strs.append(i)
+        # main_strs.sort(key=len)
+        return main_strs
